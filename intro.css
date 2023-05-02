@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
 }
 html{
     font-size: 10px;
-    font-family: 'Mostserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
 a{
@@ -642,7 +642,6 @@ p {
     }
      #projects .project-item{
         height: 400px;
-        margin: 0;
         width: 100%;
         border-radius: 0;
      }
@@ -652,6 +651,11 @@ p {
      }
      #projects .all-projects .project-img{
         height: 100%;
+     }
+     #projects .all-projects .project-img .card-img{
+        width: 600px;
+        height: 500px;
+        object-fit: contain;
      }
     /* End Project */
     /* About */
