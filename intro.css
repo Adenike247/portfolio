@@ -286,6 +286,7 @@ animation-delay: 1s;
      border-radius: 10px;
  } 
  .section-title{
+    font-size: 3em;
     margin-bottom: 18px;
  }
  .section-title span {
