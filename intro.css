@@ -587,6 +587,7 @@ animation-delay: 1s;
     #about .about{
         flex-direction: row;
     }
+
     #about .col-left{
         width: 600px;
         height: 400px;
